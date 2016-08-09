@@ -1,0 +1,25 @@
+{
+  "name": "string-vs-buffer",
+  "version": "1.0.0",
+  "description": "testing performance of concatting",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+	"test": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krystianity/nodejs-string-vs-buffer.git"
+  },
+  "keywords": [ "string", "buffer", "performance", "concatting"],
+  "author": "Christian Fröhlingsdorf <chris@5cf.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krystianity/nodejs-string-vs-buffer"
+  },
+  "homepage": "https://github.com/krystianity/nodejs-string-vs-buffer",
+  "dependencies": {
+    "nanotimer": "~0.3.14"
+  },
+  "devDependencies": {}
+}
